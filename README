@@ -1,0 +1,32 @@
+                              TORCH 
+
+ This is a GRB afterglow dynamics and radiation package.
+ 
+ FEATURE:
+ - read/calculate dynamics
+ - energy conserved GRB afterglow dynamics
+ - magnetized ejecta
+ - synchrotron radiation, self-absorption
+ - inverse compton scattering
+ 
+ UPDATE DATE: 01 Aug 2020
+
+ DEPEDENCY:
+ GSL v2.7.1, FGSL v1.5.0 (1/5/2022)
+ 
+ UNDER DEVELOPMENT:
+ - 
+
+ AUTHORS:
+  - Prof. Xuewen Liu liuxuew@scu.edu.cn 
+  - Mr.   Qiang Chen chen@camk.edu.pl
+
+ REMEMBER:
+ - external library FGSL is needed. 
+
+ USAGE: 
+ - Settings: set initial parameters in mod_input.f90
+ - Compile : execute ./run.sh to compile with Makefile
+
+ CITATION OF THIS CODE: 
+ Q. Chen & X.W. Liu, MNRAS, Volume 504, 2021, https://doi.org/10.1093/mnras/stab946
